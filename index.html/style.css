@@ -8,6 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   background: #e0e0e0;
+  scroll-behavior: smooth;
 }
 .container {
   width: 100%;
@@ -15,6 +16,7 @@ body {
   background: #fff;
   box-shadow: 4px 4px 10px #555;
   z-index: 11;
+  position: sticky;
 }
 img {
   margin: 10px;
@@ -60,10 +62,9 @@ img {
 .icon-search-box {
   color: #555;
   font-size: 30px;
-  margin-left: 66%;
+  margin-left: 60%;
   margin-top: -43px;
   cursor: pointer;
-  z-index: 10;
   visibility: visible;
 }
 .icon-search-box:hover {
@@ -74,7 +75,7 @@ img {
   color: crimson;
   font-size: 30px;
   cursor: pointer;
-  margin-left: 70%;
+  margin-left: 65%;
   margin-top: -34px;
 }
 .notification {
@@ -98,4 +99,61 @@ img {
 .video-call:hover {
   color: crimson;
   transition: all 0.2s ease;
+}
+.profile{
+   color: crimson;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 92%;
+  margin-top: -36px;
+}
+.share{
+    color: #555;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 97%;
+    margin-top: -32px;
+}
+.share:hover{
+    color: crimson;
+    transition: all 0.2s ease;
+}
+.sidebar{
+    width: 300px; 
+    height: 900px;
+    position: relative;
+    background: #fff;
+    margin-top: -12px;
+}
+.fa-home{
+    color: crimson;
+}
+.sidebar-icon{
+    color: #555;
+    margin: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+span{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.fa-firefox-browser,.fa-youtube,.fa-book-open,.fa-eye,.fa-google-play,.fa-envelope,.fa-caret-down{
+    margin-top: 10px;
+}
+
+span:hover{
+    color: red;
+    transition: all 0.2s ease-in-out;
+}
+hr{
+    margin-top: 20px;
+}
+h3{
+    text-align: center;
 }
