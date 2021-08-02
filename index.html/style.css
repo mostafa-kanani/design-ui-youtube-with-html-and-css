@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  background: #e0e0e0;
+}
+.container {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  box-shadow: 4px 4px 10px #555;
+  z-index: 11;
+}
+img {
+  margin: 10px;
+  width: 180px;
+  padding-left: 50px;
+  cursor: pointer;
+  object-fit: cover;
+}
+.bars-navbar {
+  color: #555;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-top: -45px;
+  z-index: 20;
+  padding-left: 15px;
+  cursor: pointer;
+  font-size: 30px;
+}
+.bars-navbar:hover {
+  color: crimson;
+  transition: all 0.4s ease;
+}
+.input-for-search input {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  margin-left: 620px;
+  outline: none;
+  border: 1px solid #000;
+  width: 500px;
+  height: 45px;
+  border-radius: 50px;
+  text-align: left;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  padding-left: 10px;
+  margin-top: -50px;
+  margin-left: 500px;
+}
+.icon-search-box {
+  color: #555;
+  font-size: 30px;
+  margin-left: 66%;
+  margin-top: -43px;
+  cursor: pointer;
+  z-index: 10;
+  visibility: visible;
+}
+.icon-search-box:hover {
+  color: crimson;
+  transition: 0.2s;
+}
+.icon-microphone {
+  color: crimson;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 70%;
+  margin-top: -34px;
+}
+.notification {
+  color: #555;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 80%;
+  margin-top: -34px;
+}
+.notification:hover {
+  color: crimson;
+  transition: all 0.2s ease;
+}
+.video-call {
+  color: #555;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 86%;
+  margin-top: -34px;
+}
+.video-call:hover {
+  color: crimson;
+  transition: all 0.2s ease;
+}
