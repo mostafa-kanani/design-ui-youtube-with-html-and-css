@@ -25,6 +25,7 @@ img {
   cursor: pointer;
   object-fit: cover;
 }
+
 .bars-navbar {
   color: #555;
   position: absolute;
@@ -116,7 +117,7 @@ img {
 }
 .share:hover{
     color: crimson;
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
 }
 .sidebar{
     width: 300px; 
@@ -124,7 +125,9 @@ img {
     position: relative;
     background: #fff;
     margin-top: -12px;
-}
+    transition: all 0.4s ease-in-out;
+  }
+
 .fa-home{
     color: crimson;
 }
@@ -168,4 +171,3 @@ h3{
   font-weight: 500;
   text-transform: capitalize;
 }
-
