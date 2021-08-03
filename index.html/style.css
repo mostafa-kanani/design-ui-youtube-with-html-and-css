@@ -48,17 +48,16 @@ img {
   position: absolute;
   margin-left: 620px;
   outline: none;
-  border: 1px solid #000;
-  width: 500px;
+  width: 600px;
   height: 45px;
-  border-radius: 50px;
   text-align: left;
   color: #000;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   padding-left: 10px;
   margin-top: -50px;
-  margin-left: 500px;
+  margin-left: 400px;
+  border: 3px solid #555;
 }
 .icon-search-box {
   color: #555;
@@ -101,67 +100,74 @@ img {
   color: crimson;
   transition: all 0.2s ease;
 }
-.profile{
-   color: crimson;
+.profile {
+  color: crimson;
   font-size: 30px;
   cursor: pointer;
   margin-left: 92%;
   margin-top: -36px;
 }
-.share{
-    color: #555;
-    font-size: 30px;
-    cursor: pointer;
-    margin-left: 97%;
-    margin-top: -32px;
+.share {
+  color: #555;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 97%;
+  margin-top: -32px;
 }
-.share:hover{
-    color: crimson;
-    transition: all 0.1s ease;
+.share:hover {
+  color: crimson;
+  transition: all 0.1s ease;
 }
-.sidebar{
-    width: 300px; 
-    height: 1100px;
-    position: relative;
-    background: #fff;
-    margin-top: -12px;
-    transition: all 0.4s ease-in-out;
-  }
-
-.fa-home{
-    color: crimson;
-}
-.sidebar-icon{
-    color: #555;
-    margin: 20px;
-    font-size: 25px;
-    margin-top: 20px;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    text-transform: capitalize;
+.sidebar {
+  width: 300px;
+  height: 1100px;
+  position: relative;
+  background: #fff;
+  margin-top: -12px;
+  transition: all 0.4s ease-in-out;
+  z-index: 10;
 }
 
-span{
-    margin-left: 40px;
-    margin-top: 10px;
+.fa-home {
+  color: crimson;
 }
-.fa-firefox-browser,.fa-youtube,.fa-book-open,.fa-eye,.fa-google-play,.fa-envelope,.fa-caret-down{
-    margin-top: 10px;
+.sidebar-icon {
+  color: #555;
+  margin: 20px;
+  font-size: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
 }
-.fa-home{
+
+span {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.fa-firefox-browser,
+.fa-youtube,
+.fa-book-open,
+.fa-eye,
+.fa-google-play,
+.fa-envelope,
+.fa-caret-down {
+  margin-top: 10px;
+}
+.fa-home {
   padding-top: 30px;
 }
-span:hover{
+span:hover {
   color: red;
 }
-hr{
-    margin-top: 20px;
+hr {
+  margin-top: 20px;
 }
-h3{
-    text-align: center;
+h3 {
+  text-align: center;
 }
-.show-more-icon-for-sidebar{
+.show-more-icon-for-sidebar {
   color: #555;
   margin: 20px;
   font-size: 25px;
@@ -170,4 +176,20 @@ h3{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   text-transform: capitalize;
+}
+.main-picture {
+  margin-top: -1100px;
+  z-index: 1000;
+  margin-left: 260px;
+  overflow: hidden;
+  cursor: pointer;
+  object-fit: cover;
+}
+.picture-post{
+   overflow: hidden;
+   margin-left: 10px;
+}
+h4{
+    overflow-wrap: break-word;
+     text-align: center;
 }
