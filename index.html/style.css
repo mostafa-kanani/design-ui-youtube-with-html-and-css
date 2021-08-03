@@ -21,7 +21,7 @@ body {
 img {
   margin: 10px;
   width: 180px;
-  padding-left: 50px;
+  padding-left: 40px;
   cursor: pointer;
   object-fit: cover;
 }
@@ -62,7 +62,7 @@ img {
 .icon-search-box {
   color: #555;
   font-size: 30px;
-  margin-left: 60%;
+  margin-left: 67%;
   margin-top: -43px;
   cursor: pointer;
   visibility: visible;
@@ -75,7 +75,7 @@ img {
   color: crimson;
   font-size: 30px;
   cursor: pointer;
-  margin-left: 65%;
+  margin-left: 72%;
   margin-top: -34px;
 }
 .notification {
@@ -120,7 +120,7 @@ img {
 }
 .sidebar{
     width: 300px; 
-    height: 900px;
+    height: 1100px;
     position: relative;
     background: #fff;
     margin-top: -12px;
@@ -140,16 +140,17 @@ img {
 }
 
 span{
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 10px;
 }
 .fa-firefox-browser,.fa-youtube,.fa-book-open,.fa-eye,.fa-google-play,.fa-envelope,.fa-caret-down{
     margin-top: 10px;
 }
-
+.fa-home{
+  padding-top: 30px;
+}
 span:hover{
-    color: red;
-    transition: all 0.2s ease-in-out;
+  color: red;
 }
 hr{
     margin-top: 20px;
@@ -157,3 +158,14 @@ hr{
 h3{
     text-align: center;
 }
+.show-more-icon-for-sidebar{
+  color: #555;
+  margin: 20px;
+  font-size: 25px;
+  margin-top: -50px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
