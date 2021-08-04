@@ -178,9 +178,8 @@ h3 {
   font-weight: 500;
   text-transform: capitalize;
 }
-.main-picture {
+.banner{
   margin-top: -1100px;
-  z-index: 1000;
   margin-left: 260px;
   overflow: hidden;
   cursor: pointer;
@@ -189,34 +188,4 @@ h3 {
 .picture-post{
    overflow: hidden;
    margin-left: 10px;
-}
-p{
-    overflow-wrap: break-word;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 50px;
-    color: #000;
-}
-h5{
-    margin-left: 50px;
-    margin-top: 12px;
-    color: #555;
-    letter-spacing: 3px;
-    text-transform: capitalize;
-    font-size: 20px;
-}
-h6{
-    margin-left: 50px;
-    margin-top: 18px;
-    color: #555;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    text-transform: capitalize;
-    font-size: 15px;
-}
-.picture-post-3{
-    text-align: center;
-    margin-top: -610px;
-    margin-left: -300px;
-    overflow: hidden;
 }
