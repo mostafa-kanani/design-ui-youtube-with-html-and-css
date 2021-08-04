@@ -10,6 +10,9 @@ body {
   background: #e0e0e0;
   scroll-behavior: smooth;
 }
+header {
+  position: sticky;
+}
 .container {
   width: 100%;
   height: 60px;
@@ -121,7 +124,7 @@ img {
 .sidebar {
   width: 300px;
   height: 1100px;
-  position: relative;
+  position: sticky;
   background: #fff;
   margin-top: -12px;
   transition: all 0.4s ease-in-out;
@@ -178,14 +181,14 @@ h3 {
   font-weight: 500;
   text-transform: capitalize;
 }
-.banner{
+.banner {
   margin-top: -1100px;
   margin-left: 260px;
   overflow: hidden;
   cursor: pointer;
   object-fit: cover;
 }
-.picture-post{
-   overflow: hidden;
-   margin-left: 10px;
+.picture-post {
+  overflow: hidden;
+  margin-left: 10px;
 }
