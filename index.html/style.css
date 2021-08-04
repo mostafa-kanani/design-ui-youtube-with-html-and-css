@@ -65,7 +65,7 @@ img {
 .icon-search-box {
   color: #555;
   font-size: 30px;
-  margin-left: 67%;
+  margin-left: 68%;
   margin-top: -43px;
   cursor: pointer;
   visibility: visible;
@@ -183,9 +183,7 @@ h3 {
 }
 .banner {
   margin-top: -1100px;
-  margin-left: 260px;
-  overflow: hidden;
-  cursor: pointer;
+  margin-left: 260px; 
   object-fit: cover;
 }
 .picture-post {
@@ -206,7 +204,7 @@ h3{
 }
 p{
     text-align: left;
-    margin-left: 75px;
+    margin-left: 53px;
     text-transform: capitalize;
     font-weight: 400;
     letter-spacing: 2px;
@@ -221,12 +219,20 @@ section{
     text-transform: capitalize;
     font-family: sans-serif;
 }
-.view-2{
-    margin-left: -5px;
+.picture{
+  margin-left: 15px;
+  margin-top: 15px;
 }
-.main-2{
-    margin-left: 20px;
+.picture-2{
+  margin-left: 330px;
+  margin-top: -270px;
 }
-.text-2{
-    margin-left: 20px;
+.picture-3{
+  margin-left: 640px;
+  margin-top: -270px;
+}
+.picture-4{
+  margin-left: 920px;
+  margin-top: -264px;
+  overflow: hidden;
 }
